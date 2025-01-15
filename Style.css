@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* nav{
+    background-color: rgba(0, 0, 0, 0.281);
+} */
+
+#service{
+    background-color: rgba(250, 235, 215, 0.192);
+}
+
+#hero{
+    height: 100vh;
+    background-image: url("./header-bgn.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#hero h3{
+    font-size: 3rem;
+}
+
+#hero h1{
+    font-size: 5rem;
+    font-weight: 700;
+    
+}
+
+#service i{
+    font-size: 5rem;
+    background-color: yellow;
+    padding: 2.5rem;
+    border-radius: 50%;
+    color: white;
+}
+
+#portfolio img{
+    width: 22rem;
+}
+#portfolio{
+    font-family: "Roboto Slab";
+}
+#portfolio h3{
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin: 0.5rem 0;
+}
+
+#about{
+    background-color: rgba(250, 235, 215, 0.178);
+    font-family: "Roboto Slab" !important;
+}
+
+#team{
+    font-family: "Roboto Slab" !important;
+}
+
+#about img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+#portfolio p{
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.row1 h1{
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin: 0.5rem 0;
+}
+
+#about .row{
+    margin: 4rem 0;
+}
+
+.row2{
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    padding-top: 1.5rem;
+    font-size: 0.6rem;
+}
+
+.rowi img{
+    border-radius: 50%;
+    width: 18rem;
+}
+
+#about p{
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.teaminfo{
+    padding: 0.7rem;
+}
+
+.teaminfo p{
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.rowi i{
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.829);
+    color:white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.rowlast i{
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.295);
+    background-color: white;
+}
+.rowlast p{
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.295);
+    background-color: white;
+}
+
+#contact{
+    background-color: rgba(73, 71, 71, 0.877);
+    padding: 7rem;
+    color: white;
+    font-family: "Roboto Slab" !important;
+
+}
+
+#contact button{
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+input{
+    height: 3.3rem;
+    width: 25rem;
+}
+textarea{
+    height: 12rem;
+    width: 25rem;
+}
+
+#contact h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+#footer i{
+
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.295);
+    background-color: white;
+}
+
+@media screen and (max-width:768px){
+    #hero h3{
+        font-size: 1rem;
+    }   
+
+    #hero h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .btn{
+        display: flex;
+    }
+}
+
+.toggle{
+    display: none;
+}
